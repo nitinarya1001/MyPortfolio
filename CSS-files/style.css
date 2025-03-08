@@ -1,7 +1,12 @@
 html{
     background-color:aliceblue;
+    font-family: sans-serif;
+}
+.title, .subtitle{
+    font: bold;
+    text-align: center;
 }
 .colourbox{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
