@@ -10,3 +10,12 @@ html{
     height: 100px;
     width: 100px;
 }
+
+.motivationalImage{
+    border: 5px solid orange;
+}
+
+.quarterwidth{
+    width: 50vw;
+    line-height: 15px;
+}
