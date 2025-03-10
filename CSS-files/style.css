@@ -19,3 +19,82 @@ html{
     width: 50vw;
     line-height: 15px;
 }
+
+.rectangle{
+    height: 100px;
+    width: 500px;
+}
+
+.saffron{
+    background-color: #FF671F;
+}
+.white{
+    background-color: white;
+}
+.green{
+    background-color: #046A38;
+}
+.blue{
+    background-color: #06038D;
+}
+
+.circle{
+    position:absolute;
+    left: 202.5px;
+    top: 110.5px;
+    height:80px;
+    width: 80px;
+    border: 8px solid #06038D;
+    border-radius: 50px;
+}
+
+.line{
+    position: absolute;
+    left: 211.5px;
+    top: 158.5px;
+    height: 1px;
+    width: 78px;
+}
+
+.rotate15{
+    rotate: 15deg;
+}
+.rotate30{
+    rotate: 30deg;
+}
+.rotate45{
+    rotate: 45deg;
+}
+.rotate60{
+    rotate: 60deg;
+}
+.rotate75{
+    rotate: 75deg;
+}
+.rotate90{
+    rotate: 90deg;
+}
+.rotate105{
+    rotate: 105deg;
+}
+.rotate120{
+    rotate: 120deg;
+}
+.rotate135{
+    rotate: 135deg;
+}
+.rotate150{
+    rotate: 150deg;
+}
+.rotate165{
+    rotate: 165deg;
+}
+
+.smallcircle{
+    position:absolute;
+    left: 243px;
+    top: 152px;
+    height:15px;
+    width: 15px;
+    border-radius: 50px;
+}
