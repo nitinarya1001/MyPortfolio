@@ -6,6 +6,10 @@ html{
     font: bold;
     text-align: center;
 }
+
+.left-title{
+    font-size: 60px
+}
 .colourbox{
     height: 100px;
     width: 100px;
@@ -97,4 +101,45 @@ html{
     height:15px;
     width: 15px;
     border-radius: 50px;
+}
+
+
+footer{
+    text-align: right;
+
+}
+
+@media (min-width : 1000px) {
+    .card{
+        display: inline;
+        width: 50%;
+    }
+    
+    .left{
+        float: left;
+    }
+    .right{
+        float: right;
+    }
+    
+    .tile-image{
+        float: left;
+        height: 175px;
+        margin: 20px;
+    }
+    
+    
+}
+
+@media (max-width: 1000px) {
+
+    .main{
+        text-align: center;
+    }
+
+    .tile-image{
+        height: 175px;
+        margin: 20px;
+    }
+    
 }
