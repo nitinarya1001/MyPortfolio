@@ -7,9 +7,6 @@ html{
     text-align: center;
 }
 
-.left-title{
-    font-size: 60px
-}
 .colourbox{
     height: 100px;
     width: 100px;
@@ -103,6 +100,9 @@ html{
     border-radius: 50px;
 }
 
+.left-title{
+    font-size: 60px
+}
 
 footer{
     text-align: right;
