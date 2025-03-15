@@ -1,145 +1,140 @@
-html{
-    background-color:aliceblue;
-    font-family: sans-serif;
+html {
+  background-color: aliceblue;
+  font-family: sans-serif;
 }
-.title, .subtitle{
-    font: bold;
-    text-align: center;
-}
-
-.colourbox{
-    height: 100px;
-    width: 100px;
+.title,
+.subtitle {
+  font: bold;
 }
 
-.motivationalImage{
-    border: 5px solid orange;
+.colourbox {
+  height: 100px;
+  width: 100px;
 }
 
-.quarterwidth{
-    width: 50vw;
-    line-height: 15px;
+.motivationalImage {
+  border: 5px solid orange;
 }
 
-.rectangle{
-    height: 100px;
-    width: 500px;
+.quarterwidth {
+  width: 50vw;
+  line-height: 15px;
 }
 
-.saffron{
-    background-color: #FF671F;
-}
-.white{
-    background-color: white;
-}
-.green{
-    background-color: #046A38;
-}
-.blue{
-    background-color: #06038D;
+.rectangle {
+  height: 100px;
+  width: 500px;
 }
 
-.circle{
-    position:absolute;
-    left: 202.5px;
-    top: 110.5px;
-    height:80px;
-    width: 80px;
-    border: 8px solid #06038D;
-    border-radius: 50px;
+.saffron {
+  background-color: #ff671f;
+}
+.white {
+  background-color: white;
+}
+.green {
+  background-color: #046a38;
+}
+.blue {
+  background-color: #06038d;
 }
 
-.line{
-    position: absolute;
-    left: 211.5px;
-    top: 158.5px;
-    height: 1px;
-    width: 78px;
+.circle {
+  position: absolute;
+  left: 202.5px;
+  top: 110.5px;
+  height: 80px;
+  width: 80px;
+  border: 8px solid #06038d;
+  border-radius: 50px;
 }
 
-.rotate15{
-    rotate: 15deg;
-}
-.rotate30{
-    rotate: 30deg;
-}
-.rotate45{
-    rotate: 45deg;
-}
-.rotate60{
-    rotate: 60deg;
-}
-.rotate75{
-    rotate: 75deg;
-}
-.rotate90{
-    rotate: 90deg;
-}
-.rotate105{
-    rotate: 105deg;
-}
-.rotate120{
-    rotate: 120deg;
-}
-.rotate135{
-    rotate: 135deg;
-}
-.rotate150{
-    rotate: 150deg;
-}
-.rotate165{
-    rotate: 165deg;
+.line {
+  position: absolute;
+  left: 211.5px;
+  top: 158.5px;
+  height: 1px;
+  width: 78px;
 }
 
-.smallcircle{
-    position:absolute;
-    left: 243px;
-    top: 152px;
-    height:15px;
-    width: 15px;
-    border-radius: 50px;
+.rotate15 {
+  rotate: 15deg;
+}
+.rotate30 {
+  rotate: 30deg;
+}
+.rotate45 {
+  rotate: 45deg;
+}
+.rotate60 {
+  rotate: 60deg;
+}
+.rotate75 {
+  rotate: 75deg;
+}
+.rotate90 {
+  rotate: 90deg;
+}
+.rotate105 {
+  rotate: 105deg;
+}
+.rotate120 {
+  rotate: 120deg;
+}
+.rotate135 {
+  rotate: 135deg;
+}
+.rotate150 {
+  rotate: 150deg;
+}
+.rotate165 {
+  rotate: 165deg;
 }
 
-.left-title{
-    font-size: 60px
+.smallcircle {
+  position: absolute;
+  left: 243px;
+  top: 152px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
 }
 
-footer{
-    text-align: right;
-
+.left-title {
+  font-size: 60px;
 }
 
-@media (min-width : 1000px) {
-    .card{
-        display: inline;
-        width: 50%;
-    }
-    
-    .left{
-        float: left;
-    }
-    .right{
-        float: right;
-    }
-    
-    .tile-image{
-        float: left;
-        height: 175px;
-        margin: 20px;
-    }
-    
-    
+footer {
+  text-align: right;
+}
+
+@media (min-width: 1000px) {
+  .card {
+    display: inline;
+    width: 50%;
+  }
+
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+
+  .tile-image {
+    float: left;
+    height: 175px;
+    margin: 20px;
+  }
 }
 
 @media (max-width: 1000px) {
+  .main {
+    text-align: center;
+  }
 
-    .main{
-        text-align: center;
-    }
-
-    .tile-image{
-        height: 175px;
-        margin: 20px;
-    }
-    
+  .tile-image {
+    height: 175px;
+    margin: 20px;
+  }
 }

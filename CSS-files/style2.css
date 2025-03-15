@@ -1,0 +1,13 @@
+.bg1 {
+  background-color: aliceblue;
+}
+
+.bg2 {
+  background-color: #e3d2c3;
+}
+
+.title-image {
+  border-radius: 50%;
+  border: 10px solid #e3d2c3;
+  height: 200px;
+}
