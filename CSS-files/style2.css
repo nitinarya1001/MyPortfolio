@@ -27,14 +27,6 @@ body {
   }
 }
 
-.title h1 {
-  /* font-size: 2em; */
-  font-weight: bolder;
-}
-.title p {
-  /* font-size: 1em; */
-}
-
 .title span {
   text-decoration: underline;
 }
