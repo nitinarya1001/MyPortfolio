@@ -10,19 +10,9 @@ body {
   background-color: whitesmoke;
 }
 
-#title-box {
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
-  width: 100vw;
-  height: 100vh;
-  margin: 0px;
-}
-
 #title-box img {
   border-radius: 50%;
   mix-blend-mode: darken;
-  width: 100%;
 }
 
 .title {
@@ -47,11 +37,6 @@ body {
 
 .title span {
   text-decoration: underline;
-}
-
-.content-container {
-  width: 100vw;
-  height: 100vh;
 }
 
 #intro {
