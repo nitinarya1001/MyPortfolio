@@ -12,14 +12,15 @@ h1 {
   font-weight: bolder !important;
 }
 
-h2 {
+h2,
+h5 {
   font-weight: bold !important;
 }
 
 p {
   text-align: justify;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   color: rgb(42, 42, 42);
 }
 
