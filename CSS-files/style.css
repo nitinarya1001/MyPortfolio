@@ -53,12 +53,27 @@ h3 {
 
 #intro img {
   border-radius: 50%;
-  border: 10px solid whitesmoke;
+  border: 5px solid whitesmoke;
   width: 20%;
 }
+@media (max-width: 768px) {
+  #intro img {
+    width: 40%;
+  }
+}
 
+@media (max-width: 768px) {
+  #skills .card * {
+    text-align: center !important;
+  }
+
+  #skills .flipped {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 @media (max-width: 1023px) {
-  #footer footer{
+  #footer footer {
     flex-direction: column;
   }
   #footer footer p {
@@ -67,5 +82,4 @@ h3 {
   #footer footer img {
     margin-top: 1.5rem;
   }
-
 }
